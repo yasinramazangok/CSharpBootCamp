@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourthCSharpFundamentals", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifthCSharpFundamentals", "FifthCSharpFundamentals\FifthCSharpFundamentals.csproj", "{EC65968B-B432-484F-A60B-CD7FB79218CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixthCSharpFundamentals", "SixthCSharpFundamentals\SixthCSharpFundamentals.csproj", "{AB2F367C-993A-4F3C-83D9-41EED2E43D66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EC65968B-B432-484F-A60B-CD7FB79218CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC65968B-B432-484F-A60B-CD7FB79218CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC65968B-B432-484F-A60B-CD7FB79218CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2F367C-993A-4F3C-83D9-41EED2E43D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2F367C-993A-4F3C-83D9-41EED2E43D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2F367C-993A-4F3C-83D9-41EED2E43D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2F367C-993A-4F3C-83D9-41EED2E43D66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
