@@ -1,0 +1,7 @@
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\bin\Debug\FifthCSharpFundamentals.exe.config
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\bin\Debug\FifthCSharpFundamentals.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\bin\Debug\FifthCSharpFundamentals.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\obj\Debug\FifthCSharpFundamentals.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\obj\Debug\FifthCSharpFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\obj\Debug\FifthCSharpFundamentals.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\FifthCSharpFundamentals\obj\Debug\FifthCSharpFundamentals.pdb
