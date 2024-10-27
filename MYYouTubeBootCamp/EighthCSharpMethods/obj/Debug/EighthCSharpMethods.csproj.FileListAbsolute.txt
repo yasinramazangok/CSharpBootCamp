@@ -1,0 +1,7 @@
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\bin\Debug\EighthCSharpMethods.exe.config
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\bin\Debug\EighthCSharpMethods.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\bin\Debug\EighthCSharpMethods.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\obj\Debug\EighthCSharpMethods.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\obj\Debug\EighthCSharpMethods.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\obj\Debug\EighthCSharpMethods.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\EighthCSharpMethods\obj\Debug\EighthCSharpMethods.pdb
