@@ -1,0 +1,7 @@
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\bin\Debug\TenthCSharpDatabaseCRUDOperations.exe.config
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\bin\Debug\TenthCSharpDatabaseCRUDOperations.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\bin\Debug\TenthCSharpDatabaseCRUDOperations.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\obj\Debug\TenthCSharpDatabaseCRUDOperations.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\obj\Debug\TenthCSharpDatabaseCRUDOperations.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\obj\Debug\TenthCSharpDatabaseCRUDOperations.exe
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCamp\TenthCSharpDatabaseCRUDOperations\obj\Debug\TenthCSharpDatabaseCRUDOperations.pdb

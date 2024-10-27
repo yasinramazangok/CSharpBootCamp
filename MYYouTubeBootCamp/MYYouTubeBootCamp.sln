@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EighthCSharpMethods", "Eigh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinthCSharpDatabaseOperations", "NinthCSharpDatabaseOperations\NinthCSharpDatabaseOperations.csproj", "{C7109242-13E7-43BE-B71E-1614FBDFFF19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenthCSharpDatabaseCRUDOperations", "TenthCSharpDatabaseCRUDOperations\TenthCSharpDatabaseCRUDOperations.csproj", "{33CE56BB-7AAB-4C46-8121-516570C46D51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C7109242-13E7-43BE-B71E-1614FBDFFF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7109242-13E7-43BE-B71E-1614FBDFFF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7109242-13E7-43BE-B71E-1614FBDFFF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE56BB-7AAB-4C46-8121-516570C46D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE56BB-7AAB-4C46-8121-516570C46D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE56BB-7AAB-4C46-8121-516570C46D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE56BB-7AAB-4C46-8121-516570C46D51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
