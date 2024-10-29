@@ -131,19 +131,19 @@ namespace EighthCSharpMethods
 
             #region Example Application
 
-            string ShowExamResult(string student, int exam1, int exam2, int exam3)
-            {
-                int result = (exam1 + exam2 + exam3) / 3;
+            //string ShowExamResult(string student, int exam1, int exam2, int exam3)
+            //{
+            //    int result = (exam1 + exam2 + exam3) / 3;
 
-                if (result < 50)
-                    return "Öğrenci Adı : " + student + " --> " + "*** Not Ortalaması : " + result + " *** Ders Geçme Durumu : Kaldı!";
+            //    if (result < 50)
+            //        return "Öğrenci Adı : " + student + " --> " + "*** Not Ortalaması : " + result + " *** Ders Geçme Durumu : Kaldı!";
 
-                else
-                    return "Öğrenci Adı : " + student + " --> " + "*** Not Ortalaması : " + result + " *** Ders Geçme Durumu : Geçti!";
-            }
+            //    else
+            //        return "Öğrenci Adı : " + student + " --> " + "*** Not Ortalaması : " + result + " *** Ders Geçme Durumu : Geçti!";
+            //}
 
-            Console.WriteLine(ShowExamResult("Yasin", 65, 35, 40));
-            Console.WriteLine(ShowExamResult("Ramazan", 85, 35, 90));
+            //Console.WriteLine(ShowExamResult("Yasin", 65, 35, 40));
+            //Console.WriteLine(ShowExamResult("Ramazan", 85, 35, 90));
 
             #endregion
 

@@ -1,0 +1,6 @@
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\BusinessLayer\obj\Debug\BusinessLayer.pdb

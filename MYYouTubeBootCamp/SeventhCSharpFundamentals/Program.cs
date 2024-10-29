@@ -78,125 +78,68 @@ namespace SeventhCSharpFundamentals
 
             #region Example of Examination System Application
 
-            Console.WriteLine("***** GÖK Eğitim Kurumları Sınav Uygulaması *****");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine("***** GÖK Eğitim Kurumları Sınav Uygulaması *****");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("------------------------------");
-            Console.WriteLine();
-            Console.Write("Lütfen sınıf mevcudunu giriniz : ");
+            //Console.WriteLine("------------------------------");
+            //Console.WriteLine();
+            //Console.Write("Lütfen sınıf mevcudunu giriniz : ");
 
-            int studentCount = int.Parse(Console.ReadLine());
+            //int studentCount = int.Parse(Console.ReadLine());
             
-            Console.WriteLine();
-            Console.WriteLine("------------------------------");
-            Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine("------------------------------");
+            //Console.WriteLine();
 
-            string[] students = new string[studentCount];
-            double[] examGradeAverages = new double[studentCount];
-            double totalExamGrade = 0, examGrade = 0;
+            //string[] students = new string[studentCount];
+            //double[] examGradeAverages = new double[studentCount];
+            //double totalExamGrade = 0, examGrade = 0;
 
-            for (int i = 0; i < studentCount; i++)
-            {
-                Console.Write($"{ i + 1 }. öğrencinin adını giriniz : ");
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.Write($"{ i + 1 }. öğrencinin adını giriniz : ");
 
-                students[i] = Console.ReadLine();
+            //    students[i] = Console.ReadLine();
 
-                Console.WriteLine();
+            //    Console.WriteLine();
 
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write($"{ students[i] } adlı öğrencinin { j + 1 }. sınav notunu giriniz : ");
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{ students[i] } adlı öğrencinin { j + 1 }. sınav notunu giriniz : ");
 
-                    examGrade = double.Parse(Console.ReadLine());
-                    totalExamGrade += examGrade;
-                }
+            //        examGrade = double.Parse(Console.ReadLine());
+            //        totalExamGrade += examGrade;
+            //    }
 
-                Console.WriteLine();
+            //    Console.WriteLine();
 
-                examGradeAverages[i] = totalExamGrade / 3;
-                totalExamGrade = 0;
-            }
+            //    examGradeAverages[i] = totalExamGrade / 3;
+            //    totalExamGrade = 0;
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            for (int i = 0;i < studentCount; i++)
-            {
-                Console.WriteLine("------------------------------");
-                Console.WriteLine($"***** {students[i] } adlı öğrencinin not ortalaması : {examGradeAverages[i] } *****");
+            //for (int i = 0;i < studentCount; i++)
+            //{
+            //    Console.WriteLine("------------------------------");
+            //    Console.WriteLine($"***** {students[i] } adlı öğrencinin not ortalaması : {examGradeAverages[i] } *****");
 
-                if (examGradeAverages[i] >= 0 & examGradeAverages[i] < 50)
-                    Console.WriteLine("Ders Durumu : Kaldı");
+            //    if (examGradeAverages[i] >= 0 & examGradeAverages[i] < 50)
+            //        Console.WriteLine("Ders Durumu : Kaldı");
 
-                else if (examGradeAverages[i] >= 50 & examGradeAverages[i] <= 100)
-                    Console.WriteLine("Ders Durumu : Geçti");
+            //    else if (examGradeAverages[i] >= 50 & examGradeAverages[i] <= 100)
+            //        Console.WriteLine("Ders Durumu : Geçti");
 
-                else Console.WriteLine("Hatalı not girişi!");
+            //    else Console.WriteLine("Hatalı not girişi!");
 
-                Console.WriteLine("------------------------------");
-                Console.WriteLine();
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //    Console.WriteLine("------------------------------");
+            //    Console.WriteLine();
+            //}
 
             #endregion
 
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
-
-            #region
-
-
-            #endregion
             Console.Read();
         }
     }
