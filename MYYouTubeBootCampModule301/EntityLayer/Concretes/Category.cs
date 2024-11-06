@@ -20,5 +20,7 @@ namespace EntityLayer.Concretes
         public int CategoryId { get; set; } // Property
 
         public string Name { get; set; }
+
+        public List<Product> Products { get; set; }
     }
 }

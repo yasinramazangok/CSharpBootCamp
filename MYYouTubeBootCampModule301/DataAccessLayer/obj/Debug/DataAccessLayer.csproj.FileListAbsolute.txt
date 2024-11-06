@@ -1,6 +1,15 @@
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
