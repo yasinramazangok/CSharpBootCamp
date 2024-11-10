@@ -23,5 +23,7 @@ namespace EntityLayer.Concretes
         public string City { get; set; }
 
         public List<Order> Orders { get; set; }
+
+        public bool Status { get; set; }
     }
 }

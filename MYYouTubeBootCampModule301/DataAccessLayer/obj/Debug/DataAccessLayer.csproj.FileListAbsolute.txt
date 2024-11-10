@@ -9,6 +9,9 @@ C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.CreateDatabase.resources
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.UpdateCustomer.resources
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\DataAccessLayer\obj\Debug\DataAccessLayer.dll

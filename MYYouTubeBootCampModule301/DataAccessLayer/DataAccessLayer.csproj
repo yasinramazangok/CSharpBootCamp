@@ -51,7 +51,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\IAdminDal.cs" />
+    <Compile Include="Abstracts\ICategoryDal.cs" />
+    <Compile Include="Abstracts\ICustomerDal.cs" />
+    <Compile Include="Abstracts\IGenericDal.cs" />
+    <Compile Include="Abstracts\IOrderDal.cs" />
+    <Compile Include="Abstracts\IProductDal.cs" />
     <Compile Include="Contexts\Context.cs" />
+    <Compile Include="Migrations\202411101720492_CreateDatabase.cs" />
+    <Compile Include="Migrations\202411101720492_CreateDatabase.Designer.cs">
+      <DependentUpon>202411101720492_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202411101723110_UpdateCustomer.cs" />
+    <Compile Include="Migrations\202411101723110_UpdateCustomer.Designer.cs">
+      <DependentUpon>202411101723110_UpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,9 +80,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstracts\" />
     <Folder Include="EntityFramework\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202411101720492_CreateDatabase.resx">
+      <DependentUpon>202411101720492_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411101723110_UpdateCustomer.resx">
+      <DependentUpon>202411101723110_UpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
