@@ -28,5 +28,6 @@ namespace EFProject
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Guide> Guides { get; set; }
         public virtual DbSet<Location> Locations { get; set; }
+        public virtual DbSet<Admin> Admins { get; set; }
     }
 }

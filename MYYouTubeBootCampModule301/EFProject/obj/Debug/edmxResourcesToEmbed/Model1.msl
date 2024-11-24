@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Customers">
       <EntityTypeMapping TypeName="CSharpBootCamp301EFDatabaseModel.Customer">
         <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
           <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Surname" ColumnName="Surname" />
@@ -29,6 +30,15 @@
           <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="DayNight" ColumnName="DayNight" />
           <ScalarProperty Name="GuideId" ColumnName="GuideId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="CSharpBootCamp301EFDatabaseModel.Admin">
+        <MappingFragment StoreEntitySet="Admins">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

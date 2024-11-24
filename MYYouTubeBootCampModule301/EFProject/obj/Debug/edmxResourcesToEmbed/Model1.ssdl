@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="CSharpBootCamp301EFDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admins">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
   <EntityType Name="Customers">
     <Key>
       <PropertyRef Name="CustomerId" />
@@ -7,6 +15,7 @@
     <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
     <Property Name="Surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
   </EntityType>
   <EntityType Name="Guides">
     <Key>
@@ -41,6 +50,7 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="CSharpBootCamp301EFDatabaseModelStoreContainer">
+    <EntitySet Name="Admins" EntityType="Self.Admins" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Guides" EntityType="Self.Guides" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />

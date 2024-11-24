@@ -7,6 +7,7 @@
     <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Balance" Type="Decimal" Precision="18" Scale="2" />
   </EntityType>
   <EntityType Name="Guide">
     <Key>
@@ -50,5 +51,14 @@
       <End Role="Guides" EntitySet="Guides" />
       <End Role="Locations" EntitySet="Locations" />
     </AssociationSet>
+    <EntitySet Name="Admins" EntityType="CSharpBootCamp301EFDatabaseModel.Admin" />
   </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

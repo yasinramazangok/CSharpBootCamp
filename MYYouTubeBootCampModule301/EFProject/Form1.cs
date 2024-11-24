@@ -16,5 +16,58 @@ namespace EFProject
         {
             InitializeComponent();
         }
+
+        CSharpBootCamp301EFDatabaseEntities cSharpBootCamp301EFDatabaseEntities = new CSharpBootCamp301EFDatabaseEntities();
+
+        private void buttonList_Click(object sender, EventArgs e)
+        {         
+            var values = cSharpBootCamp301EFDatabaseEntities.Guides.ToList();
+            dataGridView1.DataSource = values;  
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            Guide guide = new Guide();
+
+            guide.Name = textBoxName.Text;
+            guide.Surname = textBoxSurname.Text;    
+
+            cSharpBootCamp301EFDatabaseEntities.Guides.Add(guide);
+            cSharpBootCamp301EFDatabaseEntities.SaveChanges();
+
+            MessageBox.Show("Rehber başarıyla eklendi!");
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(textBoxId.Text);
+            var removeValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
+
+            cSharpBootCamp301EFDatabaseEntities.Guides.Remove(removeValue);
+            cSharpBootCamp301EFDatabaseEntities.SaveChanges();
+
+            MessageBox.Show("Rehber silindi!");
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(textBoxId.Text);
+            var updateValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
+
+            updateValue.Name = textBoxName.Text;
+            updateValue.Surname = textBoxSurname.Text;
+
+            cSharpBootCamp301EFDatabaseEntities.SaveChanges();
+
+            MessageBox.Show("Rehber başarıyla güncellendi!", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void buttonGetById_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(textBoxId.Text);
+            var values = cSharpBootCamp301EFDatabaseEntities.Guides.Where(g => g.GuideId == id).ToList();
+            
+            dataGridView1.DataSource = values;
+        }
     }
 }
