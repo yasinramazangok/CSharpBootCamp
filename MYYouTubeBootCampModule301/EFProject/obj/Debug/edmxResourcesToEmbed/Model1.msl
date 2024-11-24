@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSharpBootCamp301EFDatabaseModelStoreContainer" CdmEntityContainer="CSharpBootCamp301EFDatabaseEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CSharpBootCamp301EFDatabaseModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guides">
+      <EntityTypeMapping TypeName="CSharpBootCamp301EFDatabaseModel.Guide">
+        <MappingFragment StoreEntitySet="Guides">
+          <ScalarProperty Name="GuideId" ColumnName="GuideId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="CSharpBootCamp301EFDatabaseModel.Location">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="DayNight" ColumnName="DayNight" />
+          <ScalarProperty Name="GuideId" ColumnName="GuideId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

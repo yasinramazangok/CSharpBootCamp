@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CSharpBootCamp301EFDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Guide">
+    <Key>
+      <PropertyRef Name="GuideId" />
+    </Key>
+    <Property Name="GuideId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Locations" Relationship="Self.FK_Locations_Guides" FromRole="Guides" ToRole="Locations" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="LocationId" />
+    </Key>
+    <Property Name="LocationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Capacity" Type="Byte" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DayNight" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GuideId" Type="Int32" />
+    <NavigationProperty Name="Guide" Relationship="Self.FK_Locations_Guides" FromRole="Locations" ToRole="Guides" />
+  </EntityType>
+  <Association Name="FK_Locations_Guides">
+    <End Role="Guides" Type="Self.Guide" Multiplicity="0..1" />
+    <End Role="Locations" Type="Self.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guides">
+        <PropertyRef Name="GuideId" />
+      </Principal>
+      <Dependent Role="Locations">
+        <PropertyRef Name="GuideId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CSharpBootCamp301EFDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Guides" EntityType="Self.Guide" />
+    <EntitySet Name="Locations" EntityType="Self.Location" />
+    <AssociationSet Name="FK_Locations_Guides" Association="Self.FK_Locations_Guides">
+      <End Role="Guides" EntitySet="Guides" />
+      <End Role="Locations" EntitySet="Locations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
