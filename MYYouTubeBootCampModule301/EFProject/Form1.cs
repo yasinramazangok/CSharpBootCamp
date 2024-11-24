@@ -41,9 +41,9 @@ namespace EFProject
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             int id = int.Parse(textBoxId.Text);
-            var removeValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
+            var deletedValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
 
-            cSharpBootCamp301EFDatabaseEntities.Guides.Remove(removeValue);
+            cSharpBootCamp301EFDatabaseEntities.Guides.Remove(deletedValue);
             cSharpBootCamp301EFDatabaseEntities.SaveChanges();
 
             MessageBox.Show("Rehber silindi!");
@@ -52,10 +52,10 @@ namespace EFProject
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
             int id = int.Parse(textBoxId.Text);
-            var updateValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
+            var updatedValue = cSharpBootCamp301EFDatabaseEntities.Guides.Find(id);
 
-            updateValue.Name = textBoxName.Text;
-            updateValue.Surname = textBoxSurname.Text;
+            updatedValue.Name = textBoxName.Text;
+            updatedValue.Surname = textBoxSurname.Text;
 
             cSharpBootCamp301EFDatabaseEntities.SaveChanges();
 
