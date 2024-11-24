@@ -34,3 +34,11 @@ In this project, you can examine CRUD operations on MS SQL Server. 📝📊
 
 🧑‍💻🧑‍🏫😊 I will continue to add many projects in different areas to this repository throughout the course and will update this document continuously. Feel free to contribute! 😊🧑‍🏫🧑‍💻
 
+## 🪧🧑‍🏫 MYYouTubeBootCampModule301 🧑‍🏫🪧
+I'm developing an application in EFProject project in MYYouTubeBootCampModule301 solution. This application is a travel project and has some windows form screens. I have attached below the runtime image of the FormStatistics file where you can find the statistics. In the FormStatistics.cs file, you can examine the use of EntityFramework and LINQ queries in the load method of the form.🧑‍💻
+
+![image](https://github.com/user-attachments/assets/d538b357-a62d-4ce7-912a-4fae31ba27cf)
+
+
+🧑‍💻🧑‍🏫😊 I will continue to add many projects in different areas to this repository throughout the course and will update this document continuously. Feel free to contribute! 😊🧑‍🏫🧑‍💻
+
