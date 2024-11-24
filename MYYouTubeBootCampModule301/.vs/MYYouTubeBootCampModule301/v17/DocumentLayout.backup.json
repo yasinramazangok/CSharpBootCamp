@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19BD9028-DF99-4D11-9945-981F26773633}|EFProject\\EFProject.csproj|c:\\users\\yasin\\desktop\\csharpbootcamp\\myyoutubebootcampmodule301\\efproject\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19BD9028-DF99-4D11-9945-981F26773633}|EFProject\\EFProject.csproj|solutionrelative:efproject\\formstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormStatistics.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\EFProject\\FormStatistics.cs",
+              "RelativeDocumentMoniker": "EFProject\\FormStatistics.cs",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\EFProject\\FormStatistics.cs [Design]",
+              "RelativeToolTip": "EFProject\\FormStatistics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:46:28.046Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

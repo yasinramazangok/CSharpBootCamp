@@ -8,6 +8,7 @@ C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\bin\D
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.csproj.AssemblyReference.cache
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.Form1.resources
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.FormLocation.resources
+C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.FormStatistics.resources
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.Properties.Resources.resources
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.csproj.GenerateResource.cache
 C:\Users\yasin\Desktop\CSharpBootCamp\MYYouTubeBootCampModule301\EFProject\obj\Debug\EFProject.csproj.CoreCompileInputs.cache
