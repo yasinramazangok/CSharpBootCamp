@@ -58,6 +58,11 @@
     <Compile Include="Abstracts\IOrderDal.cs" />
     <Compile Include="Abstracts\IProductDal.cs" />
     <Compile Include="Contexts\Context.cs" />
+    <Compile Include="EntityFramework\EfAdminDal.cs" />
+    <Compile Include="EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="EntityFramework\EfCustomerDal.cs" />
+    <Compile Include="EntityFramework\EfOrderDal.cs" />
+    <Compile Include="EntityFramework\EfProductDal.cs" />
     <Compile Include="Migrations\202411101720492_CreateDatabase.cs" />
     <Compile Include="Migrations\202411101720492_CreateDatabase.Designer.cs">
       <DependentUpon>202411101720492_CreateDatabase.cs</DependentUpon>
@@ -68,6 +73,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
@@ -79,10 +85,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202411101720492_CreateDatabase.resx">
       <DependentUpon>202411101720492_CreateDatabase.cs</DependentUpon>

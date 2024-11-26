@@ -12,7 +12,7 @@ namespace DataAccessLayer.Abstracts
 
         void Update(T entity);
 
-        void Delete(int id);
+        void Delete(T entity);
 
         List<T> GetListAll();
 
