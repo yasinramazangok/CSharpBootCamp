@@ -41,7 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Abstracts\ICategoryService.cs" />
+    <Compile Include="Abstracts\ICustomerService.cs" />
+    <Compile Include="Abstracts\IGenericService.cs" />
+    <Compile Include="Abstracts\IOrderService.cs" />
+    <Compile Include="Abstracts\IProductService.cs" />
+    <Compile Include="Concretes\CategoryManager.cs" />
+    <Compile Include="Concretes\CustomerManager.cs" />
+    <Compile Include="Concretes\OrderManager.cs" />
+    <Compile Include="Concretes\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,5 +62,6 @@
       <Name>EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
