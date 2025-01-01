@@ -1,6 +1,6 @@
 ﻿using BusinessLayer.Abstracts;
 using BusinessLayer.Concrete;
-using CSharpEgitimKampi301.BusinessLayer.Concrete;
+using BusinessLayer.Concretes;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concretes;
 using System;
@@ -29,7 +29,7 @@ namespace MYYouTubeBootCampModule301
 
         private void btnList2_Click(object sender, EventArgs e)
         {
-            var values = _productService.TGetProductsWithCategory();
+            var values = _productService.TGetProductsListByCategory();
             dataGridView1.DataSource = values;
         }
 
