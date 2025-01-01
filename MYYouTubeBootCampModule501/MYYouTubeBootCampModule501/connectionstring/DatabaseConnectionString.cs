@@ -11,7 +11,7 @@ namespace CSharpEgitimKampi501.ConnectionString
     {
         public static void SQLDatabaseConnectionString()
         {
-            SqlConnection connection = new SqlConnection("Server=DESKTOP-R7AR1ND;initial Catalog=EgitimKampi501Db;integrated security=true");
+            SqlConnection connection = new SqlConnection("Server=YASINRAMAZANGOK;initial catalog=CSharpBootCamp501Database;integrated security=true");
         }
        
     }
