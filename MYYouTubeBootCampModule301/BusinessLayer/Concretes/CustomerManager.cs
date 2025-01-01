@@ -12,7 +12,6 @@ namespace BusinessLayer.Concretes
     public class CustomerManager : ICustomerService
     {
         private readonly ICustomerDal _customerDal;
-
         public CustomerManager(ICustomerDal customerDal)
         {
             _customerDal = customerDal;
@@ -44,6 +43,7 @@ namespace BusinessLayer.Concretes
                 //error message
             }
         }
+
         public void TUpdate(Customer entity)
         {
             if (entity.CustomerId != 0 && entity.City.Length >= 3)
