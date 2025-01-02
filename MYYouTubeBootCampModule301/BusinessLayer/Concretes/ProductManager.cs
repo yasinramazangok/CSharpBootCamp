@@ -1,13 +1,9 @@
 ﻿using BusinessLayer.Abstracts;
 using DataAccessLayer.Abstracts;
 using EntityLayer.Concretes;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CSharpEgitimKampi301.BusinessLayer.Concrete
+namespace BusinessLayer.Concretes
 {
     public class ProductManager : IProductService
     {
@@ -32,7 +28,7 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
-        public List<object> TGetProductsWithCategory()
+        public List<object> TGetProductsListByCategory()
         {
             return _productDal.GetProductsListByCategory();
         }

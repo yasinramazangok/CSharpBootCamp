@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{04489CDE-E8CB-479A-925A-6F8435AEDD16}|MYYouTubeBootCampModule301\\MYYouTubeBootCampModule301.csproj|c:\\users\\yasinramazangok\\desktop\\csharpbootcamp\\myyoutubebootcampmodule301\\myyoutubebootcampmodule301\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{04489CDE-E8CB-479A-925A-6F8435AEDD16}|MYYouTubeBootCampModule301\\MYYouTubeBootCampModule301.csproj|solutionrelative:myyoutubebootcampmodule301\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\MYYouTubeBootCampModule301\\App.config",
-              "RelativeDocumentMoniker": "MYYouTubeBootCampModule301\\App.config",
-              "ToolTip": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\MYYouTubeBootCampModule301\\MYYouTubeBootCampModule301\\App.config",
-              "RelativeToolTip": "MYYouTubeBootCampModule301\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-01-01T21:37:31.537Z",
-              "EditorCaption": ""
             }
           ]
         }
