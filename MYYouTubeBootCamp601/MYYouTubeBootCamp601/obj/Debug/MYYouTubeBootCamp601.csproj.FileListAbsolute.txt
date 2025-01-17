@@ -51,7 +51,7 @@ C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBo
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.csproj.AssemblyReference.cache
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.Form1.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.FrmCustomer.resources
-C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\CSharpEgitimKampi601.FrmEmployee.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.FrmEmployee.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.Properties.Resources.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.csproj.GenerateResource.cache
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\MYYouTubeBootCamp601\MYYouTubeBootCamp601\obj\Debug\MYYouTubeBootCamp601.csproj.CoreCompileInputs.cache
