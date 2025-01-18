@@ -1,0 +1,16 @@
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\FinancialCRM.exe.config
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\FinancialCRM.exe
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\FinancialCRM.pdb
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\EntityFramework.dll
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\EntityFramework.xml
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.AssemblyReference.cache
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmBanks.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmBilling.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.Properties.Resources.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.GenerateResource.cache
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.CoreCompileInputs.cache
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\Financia.C877801E.Up2Date
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.exe
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.pdb

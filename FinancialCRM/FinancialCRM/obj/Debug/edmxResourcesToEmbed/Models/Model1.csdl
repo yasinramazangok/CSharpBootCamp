@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinancialCRMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BankProcess">
+    <Key>
+      <PropertyRef Name="BankProcessId" />
+    </Key>
+    <Property Name="BankProcessId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ProcessDate" Type="DateTime" Precision="0" />
+    <Property Name="ProcessType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BankId" Type="Int32" />
+    <NavigationProperty Name="Bank" Relationship="Self.FK_BankProcesses_Banks" FromRole="BankProcesses" ToRole="Banks" />
+  </EntityType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankId" />
+    </Key>
+    <Property Name="BankId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankAccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BankTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BankBalance" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="BankProcesses" Relationship="Self.FK_BankProcesses_Banks" FromRole="Banks" ToRole="BankProcesses" />
+  </EntityType>
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="BillId" />
+    </Key>
+    <Property Name="BillId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BillAmount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BillPeriod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Spendings" Relationship="Self.FK_Spendings_Categories" FromRole="Categories" ToRole="Spendings" />
+  </EntityType>
+  <EntityType Name="Spending">
+    <Key>
+      <PropertyRef Name="SpendingId" />
+    </Key>
+    <Property Name="SpendingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SpendingTitle" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SpendingAmount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SpendingDate" Type="DateTime" Precision="0" />
+    <Property Name="CategoryId" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Spendings_Categories" FromRole="Spendings" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_BankProcesses_Banks">
+    <End Role="Banks" Type="Self.Bank" Multiplicity="0..1" />
+    <End Role="BankProcesses" Type="Self.BankProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banks">
+        <PropertyRef Name="BankId" />
+      </Principal>
+      <Dependent Role="BankProcesses">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Spendings_Categories">
+    <End Role="Categories" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Spendings" Type="Self.Spending" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Spendings">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FinancialCRMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BankProcesses" EntityType="Self.BankProcess" />
+    <EntitySet Name="Banks" EntityType="Self.Bank" />
+    <EntitySet Name="Bills" EntityType="Self.Bill" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Spendings" EntityType="Self.Spending" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_BankProcesses_Banks" Association="Self.FK_BankProcesses_Banks">
+      <End Role="Banks" EntitySet="Banks" />
+      <End Role="BankProcesses" EntitySet="BankProcesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Spendings_Categories" Association="Self.FK_Spendings_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Spendings" EntitySet="Spendings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

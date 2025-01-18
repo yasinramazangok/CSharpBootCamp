@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\FinancialCRM\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{14D10560-4409-4A3F-B78D-F0FC66C471EB}|FinancialCRM\\FinancialCRM.csproj|c:\\users\\yasinramazangok\\desktop\\csharpbootcamp\\financialcrm\\financialcrm\\frmbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{14D10560-4409-4A3F-B78D-F0FC66C471EB}|FinancialCRM\\FinancialCRM.csproj|solutionrelative:financialcrm\\frmbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14D10560-4409-4A3F-B78D-F0FC66C471EB}|FinancialCRM\\FinancialCRM.csproj|c:\\users\\yasinramazangok\\desktop\\csharpbootcamp\\financialcrm\\financialcrm\\frmbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14D10560-4409-4A3F-B78D-F0FC66C471EB}|FinancialCRM\\FinancialCRM.csproj|solutionrelative:financialcrm\\frmbanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,31 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmBanks.cs",
-              "DocumentMoniker": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\FinancialCRM\\FinancialCRM\\FrmBanks.cs",
-              "RelativeDocumentMoniker": "FinancialCRM\\FrmBanks.cs",
-              "ToolTip": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\FinancialCRM\\FinancialCRM\\FrmBanks.cs",
-              "RelativeToolTip": "FinancialCRM\\FrmBanks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T19:06:22.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmBanks.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\FinancialCRM\\FinancialCRM\\FrmBanks.cs",
-              "RelativeDocumentMoniker": "FinancialCRM\\FrmBanks.cs",
-              "ToolTip": "C:\\Users\\yasinramazangok\\Desktop\\CSharpBootCamp\\FinancialCRM\\FinancialCRM\\FrmBanks.cs [Design]",
-              "RelativeToolTip": "FinancialCRM\\FrmBanks.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T19:05:07.522Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
