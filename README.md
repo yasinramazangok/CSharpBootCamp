@@ -60,7 +60,7 @@ In this project, a CRM application was developed with Windows Form structures. D
 
  *📔 Categories*
 
-![image](https://github.com/user-attachments/assets/254a028b-137b-49c4-b2b3-8e9cc49556b4)
+![image](https://github.com/user-attachments/assets/0c6ba6b3-fae1-4557-85a8-46e73a54a1e0)
 
  *📊 Dashboard*
 
