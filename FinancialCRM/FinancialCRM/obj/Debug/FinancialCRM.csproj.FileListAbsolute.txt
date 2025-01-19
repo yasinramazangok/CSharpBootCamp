@@ -8,7 +8,11 @@ C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\bin\De
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.AssemblyReference.cache
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmBanks.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmBilling.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmCategories.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmDashboard.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmLogin.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmSettings.resources
+C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.FrmSpendings.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.Properties.Resources.resources
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.GenerateResource.cache
 C:\Users\yasinramazangok\Desktop\CSharpBootCamp\FinancialCRM\FinancialCRM\obj\Debug\FinancialCRM.csproj.CoreCompileInputs.cache
