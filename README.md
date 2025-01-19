@@ -40,7 +40,7 @@ I'm developing an application in EFProject project in MYYouTubeBootCampModule301
 ## 🪧🧑‍🏫 Financial CRM 🧑‍🏫🪧
 In this project, a CRM application was developed with Windows Form structures. Database operations were managed with MS SQL server and EntityFramework was used. You can find screenshots of the project below.
 
-### ⭐ [Application Screenshots](#-web-site-1)
+### ⭐ Application Screenshots
 
 ### 🧑‍💻 User Operations
 
